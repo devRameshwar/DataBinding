@@ -7,6 +7,7 @@ import { StringInterpolationComponent } from './demoComponentForDataBinding/stri
 import { PropertyBindingComponent } from './demoComponentForDataBinding/property-binding/property-binding.component';
 import { EventBindingComponent } from './demoComponentForDataBinding/event-binding/event-binding.component';
 import { TwoWayBindingComponent } from './demoComponentForDataBinding/two-way-binding/two-way-binding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,9 +19,10 @@ import { TwoWayBindingComponent } from './demoComponentForDataBinding/two-way-bi
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
-  bootstrap: [EventBindingComponent]
+  bootstrap: [TwoWayBindingComponent]
 })
 export class AppModule { }

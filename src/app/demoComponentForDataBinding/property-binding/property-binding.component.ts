@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class PropertyBindingComponent {
 
+  imageUrl: string = "";
+
+  seeImage() {
+    this.imageUrl = '../../../assets/z.png'
+  }
+
 }

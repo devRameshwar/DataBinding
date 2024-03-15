@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./string-interpolation.component.css']
 })
 export class StringInterpolationComponent {
+  massege: string = 'Welcome to Angular ';
+  price: number = 25.50;
+  currentDate: Date = new Date();
 
 }

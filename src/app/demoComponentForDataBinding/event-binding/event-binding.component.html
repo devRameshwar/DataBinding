@@ -1,5 +1,12 @@
-<h1>Component Binding......</h1>
+<H1>Event Binding.....</H1>
 
-<h3>Massege:{{massege}}</h3>
-<h3>Price:{{price}}</h3>
-<h3>Current Date:{{currentDate}}</h3>
+<div class="a">
+    <label>See your details...</label>
+    <button (click)="clickMe()">Click Me</button>
+    <div *ngIf="click">
+        <H1>Your details..</H1>
+        <h3>Name: Rameshwar Singh</h3>
+        <h3>Software Engineer</h3>
+        <h3>Lives In: Hyderabad India.</h3>
+    </div>
+</div>

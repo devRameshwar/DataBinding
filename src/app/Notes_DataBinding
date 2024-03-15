@@ -17,4 +17,6 @@ There are two way to biding of data in Angular
             (2)two way data Binding: [(ngModel)]
                     syntex: <input [(ngModel)]="massege"/>
 
+                    Note: nesesary to import FormsModule in app.module.ts file
+
 This project practice all data Binding 
