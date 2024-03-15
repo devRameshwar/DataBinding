@@ -21,6 +21,6 @@ import { TwoWayBindingComponent } from './demoComponentForDataBinding/two-way-bi
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [EventBindingComponent]
 })
 export class AppModule { }

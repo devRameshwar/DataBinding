@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class EventBindingComponent {
 
+  massege: string = 'Welcome to Angular ';
+  price: number = 25.50;
+  currentDate: Date = new Date();
+
 }

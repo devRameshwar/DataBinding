@@ -1,0 +1,20 @@
+Data Binding In Angular Framwork:
+------------------------------------
+There are two way to biding of data in Angular 
+            (1)one way data Binding
+                    (a)string Interpolation data biding: {{}}
+                        string massege='Welcome In Angualr'
+                        syntex: <h1>{{massege}}</h1>
+
+                    (b)Property Binding: []
+                        syntex: image[src]="image_urls"
+
+                    (c)event biding: ()
+                        syntex: <button (click)="onClick()">click me</button>
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+            (2)two way data Binding: [(ngModel)]
+                    syntex: <input [(ngModel)]="massege"/>
+
+This project practice all data Binding 
